@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+.sub-title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  margin: 20px 0px;
+}
+.layout {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.image {
+  width: 100%;
+  height: 250px;
+}
+.layout-element {
+  width: 25%;
+  padding: 5px;
+}
+.layout-element-big {
+  width: 45%;
+  padding: 5px;
+}
+.border-left-small {
+  border-left: 1px solid black;
+}
+.border-right-small {
+  border-right: 1px solid black;
+}
+.border-top-big {
+  border-top: 2px solid black;
+}
+.border-bottom-big {
+  border-bottom: 2px solid black;
+}
+.features {
+  width: 71.8%;
+  font-size: xx-large;
+  font-weight: bold;
+  color: grey;
+}
+.poli {
+  background-color: yellow;
+  padding: 10px;
+}
+.spor {
+  background-color: cyan;
+  padding: 10px;
+}
+.music {
+  background-color: lightgreen;
+  padding: 10px;
+}
+.some {
+  background-color: lightskyblue;
+  padding: 10px;
+}
+.kebab {
+  background-color: purple;
+  padding: 10px;
+}
